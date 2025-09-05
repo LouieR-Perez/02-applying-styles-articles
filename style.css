@@ -1,0 +1,97 @@
+body {
+	background: #f7f7f9;
+	color: #222;
+	font-family: 'Segoe UI', Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	line-height: 1.6;
+}
+
+#site-title {
+	text-align: center;
+	font-size: 2.5rem;
+	margin: 2rem 0 1.5rem 0;
+	letter-spacing: 1px;
+}
+
+main {
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+
+.article {
+	background: #fff;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+	margin-bottom: 2rem;
+	padding: 1.5rem 1.25rem;
+}
+
+#featured-article {
+	border-left: 6px solid #4a90e2;
+	background: #eaf3fb;
+	box-shadow: 0 4px 16px rgba(74,144,226,0.07);
+}
+
+.article-title {
+	font-size: 1.4rem;
+	margin: 0 0 0.5rem 0;
+	color: #222;
+}
+
+.metadata {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 0.75rem 0;
+	display: flex;
+	gap: 1.2rem;
+	font-size: 0.95rem;
+	color: #888;
+}
+
+.description {
+	margin: 0 0 1rem 0;
+}
+
+.read-more {
+	color: #4a90e2;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 1rem;
+}
+
+.read-more:hover {
+	text-decoration: underline;
+}
+
+#more-articles {
+	max-width: 700px;
+	margin: 0 auto 2rem auto;
+	padding: 0 1rem;
+}
+
+#more-articles h3 {
+	font-size: 1.1rem;
+	margin-bottom: 0.5rem;
+	color: #333;
+}
+
+#more-articles ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#more-articles li {
+	margin-bottom: 0.4rem;
+}
+
+#more-articles a {
+	color: #4a90e2;
+	text-decoration: none;
+}
+
+#more-articles a:hover {
+	text-decoration: underline;
+}
